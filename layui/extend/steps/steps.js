@@ -65,7 +65,7 @@
         }
         return false;
       }
-      curPage=page;
+      curPage=parseInt(page);
       this.find(".step-list").hide();
       this.find(".step-list").eq(curPage-1).show();
       this.find(".step-header li").each(function (i, li) {
