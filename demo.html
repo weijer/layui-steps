@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>steps 演示</title>
+    <script type="text/javascript" src="layui/layui.js"></script>
+    <script type="text/javascript" src="layui/config.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body style="padding: 20px">
+<div id="step_demo" class="step-body">
+    <div class="step-header" style="width:80%;overflow: hidden;">
+        <ul>
+            <li>
+                <span class="step-name">填写申请表</span>
+            </li>
+            <li>
+                <span class="step-name">上传资料</span>
+            </li>
+            <li>
+                <span class="step-name">待确认</span>
+            </li>
+            <li>
+                <span class="step-name">已确认</span>
+            </li>
+            <li>
+                <span class="step-name">待受理</span>
+            </li>
+            <li>
+                <span class="step-name">已受理</span>
+            </li>
+            <li>
+                <span class="step-name">预约完成</span>
+            </li>
+            <li>
+                <span class="step-name">签证单已发放</span>
+            </li>
+        </ul>
+    </div>
+    <div class="step-content">
+        <div class="step-list">填写申请表</div>
+        <div class="step-list">上传资料</div>
+        <div class="step-list">待确认</div>
+        <div class="step-list">已确认</div>
+        <div class="step-list">待受理</div>
+        <div class="step-list">已受理</div>
+        <div class="step-list">预约完成</div>
+        <div class="step-list">签证单已发放</div>
+        <div class="step-list">完成</div>
+    </div>
+
+</div>
+
+<button id="preBtn">上一步</button>
+<button id="nextBtn">下一步</button>
+<button id="goBtn">跳转的指定的步骤</button>
+</body>
+</html>
