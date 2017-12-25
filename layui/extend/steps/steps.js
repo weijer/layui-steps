@@ -103,4 +103,4 @@
   };
 
   exports('steps', $);
-}).addcss('../extend/steps/style.css', 'steps');
+});
